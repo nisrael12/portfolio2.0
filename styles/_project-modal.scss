@@ -1,0 +1,198 @@
+ /* Project Modal Start */
+ .noscroll {
+    overflow: hidden;
+  }
+  
+  .project-modal {
+    display: block;
+    background-color: #2bd9a8;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99998;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    transform: translate(-100%, 0);
+  }
+  
+  .project-modal__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .project-modal__close-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+  }
+  .project-modal__content-close {
+    /* position: relative;
+    top: 0;
+    right: 0; */
+    cursor: pointer;
+    z-index: 99999;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 0 0;
+  }
+  
+  .project-modal__content-close i {
+    font-size: 4rem;
+    display: none;
+  }
+  
+  /* Close btn */
+  .project-modal__content-close > div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .project-modal__content-close > div:before,
+  .project-modal__content-close > div:after {
+    content: "";
+    position: absolute;
+    z-index: 9999999;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
+  
+  /* Close Btn Animations */
+  .project-modal__content-close > div:before {
+    transform: rotate(45deg);
+  }
+  .project-modal__content-close > div:after {
+    transform: rotate(-45deg);
+  }
+  
+  .project-modal__content-close > div:hover {
+    transform: rotate(180deg);
+  
+  }
+  .project-modal__content {
+    max-width: 1200px;
+    width: 100%;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .project-modal__content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-modal__content h2 {
+    font-size: 2.5rem;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-modal__img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .project-modal__info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    height: 100%;
+  }
+  .project-modal__info-container h3 {
+    font-size: 1.5rem;
+  }
+  .project-modal__info-container p {
+    font-size: 1.3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  .project-modal__overview {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30px 150px 1fr;
+    row-gap: 1rem;
+  }
+  
+  .project-modal__btn {
+    width: 100%;
+  }
+  .project-modal__overview button {
+    background-color: #f7f8fd;
+    font-family: "Lato", sans-serif;
+    color: black;
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    border: none;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 15px 10px 33px -2px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 15px 10px 33px -2px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 15px 10px 33px -2px rgba(0, 0, 0, 0.51);
+    cursor: pointer;
+  }
+  
+  .project-modal__overview button:hover {
+    transform: scale(1.05);
+    font-size: 0.8rem;
+  }
+  
+  .project-modal__details {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30px 150px 1fr;
+    row-gap: 1rem;
+  }
+  
+  .project-modal__details-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .project-modal__details-list-form li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  .project-modal__details-list-answers li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    color: #f0f4fd;
+  }
+  
+  .project-modal__details-list-answers li a {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    color: #f0f4fdc9;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .project-modal__details-list-answers a:hover {
+    color: #ffffff;
+  }
+  
+  /* Project Modal End */

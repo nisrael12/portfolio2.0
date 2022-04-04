@@ -1,0 +1,34 @@
+@use "reset";
+@use "project-modal";
+@use "header";
+@use "hero";
+@use "about";
+@use "portfolio";
+@use "skills";
+@use "jobs";
+@use "footer";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f8fd;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+  z-index: 2;
+}

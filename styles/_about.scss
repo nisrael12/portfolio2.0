@@ -1,0 +1,138 @@
+  /* About Starts */
+  
+  .about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+  }
+  
+  .about__container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    max-width: 1200px;
+    width: 100%;
+    max-height: 800px;
+    background: #ffffff;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about__img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about__img img {
+      height: 100%;
+  }
+  
+  .about__info {
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about__greeting-text {
+    background-color: #f2b749;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about__greeting-text h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .about__info h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    padding: 1rem 0;
+    line-height: 1.2;
+  }
+  
+  .about__info p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #0000007e;
+    font-family: "Noto Sans", sans-serif;
+    padding: 1rem 0;
+    line-height: 1.8;
+  }
+  
+  .about__content {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    width: 100%;
+  }
+  .about__content-question {
+    display: grid;
+    row-gap: 1rem;
+  }
+  .about__content-question span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0000007e;
+    font-family: "Noto Sans", sans-serif;
+  }
+  .about__content-answers {
+    display: grid;
+    row-gap: 1rem;
+  }
+  .about__content-answers span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0000007e;
+    font-family: "Noto Sans", sans-serif;
+  }
+  .about__content-answers span a {
+    color: #0000007e;
+    text-decoration: none;
+  }
+  
+  .about__btn {
+    padding: 2rem 0;
+  }
+  .about__btn a {
+    text-decoration: none;
+    color: white;
+  }
+  .about__btn button {
+    background-color: #324bd9;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  }
+  .about__btn i {
+    margin-right: 0.5rem;
+  }
+  
+  .about__btn button:hover {
+    transform: scale(1.05);
+    font-size: 0.8rem;
+  }
+  
+  /* About Ends */

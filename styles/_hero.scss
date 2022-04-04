@@ -1,0 +1,98 @@
+ /* Hero Starts */
+ .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.pexels.com/photos/2617573/pexels-photo-2617573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero__line {
+    height: 1px;
+    border-width: 0;
+    color: white;
+    background-color: white;
+    width: 60px;
+  }
+  
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    position: absolute;
+  }
+  
+  .hero__signature {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f7f8fd;
+    font-family: "Cedarville Cursive", cursive;
+  }
+  
+  .hero__position {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #f7f8fd;
+    font-family: "Lato", sans-serif;
+    text-transform: capitalize;
+    padding: 1rem 0 2rem 0;
+  }
+  
+  .hero__other-positions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+  }
+  
+  .hero__titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #f7f8fd;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .hero__btn {
+    padding: 2rem;
+  }
+  .hero__btn a {
+    text-decoration: none;
+    color: #f7f8fd;
+  }
+  .hero__btn button {
+    background-color: transparent;
+    border: 2px solid #f7f8fd;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #f7f8fd;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+  }
+  .hero__btn button:hover {
+    background-color: #f7f8fd;
+    color: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease-in-out;
+  }
+  .hero__btn a:hover {
+    text-decoration: none;
+  }
+  /* Hero Ends */
