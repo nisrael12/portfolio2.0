@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>2027 Portfolio</title>
+        <title>Portfolio 2.0</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <MainLayout>
