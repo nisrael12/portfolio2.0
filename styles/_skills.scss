@@ -1,5 +1,5 @@
-/* Skills Starts */
-.skills {
+@media (min-width: 1499.99px) {
+  .skills {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
     padding: 2rem 0;
     background-color: #f0f4fd;
   }
-  
+
   .skills__container {
     width: 100%;
     display: flex;
@@ -18,7 +18,7 @@
     max-width: 1200px;
     width: 100%;
   }
-  
+
   .skills__title {
     background-color: #f2b749;
     height: 30px;
@@ -28,7 +28,7 @@
     align-items: center;
     margin-bottom: 1rem;
   }
-  
+
   .skills__text h2 {
     font-size: 1.3rem;
     font-weight: 300;
@@ -37,7 +37,7 @@
     padding: 0.5rem 1rem;
     text-transform: uppercase;
   }
-  
+
   .skills__summary {
     font-size: 1.5rem;
     font-weight: 700;
@@ -48,12 +48,12 @@
     line-height: 1.2;
     margin-bottom: 2rem;
   }
-  
+
   .skills__gallery {
     display: flex;
     flex-direction: column;
   }
-  
+
   .skills__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -63,7 +63,7 @@
     width: 100%;
     margin: 1rem 0;
   }
-  
+
   .skills__grid-item {
     background-color: #ffffff;
     width: 400px;
@@ -77,7 +77,7 @@
     height: 100%;
     width: 100%;
   }
-  
+
   .skills__grid-icon i {
     font-size: 2rem;
     margin-right: 1rem;
@@ -102,7 +102,7 @@
     color: #f2b749;
     margin-right: 1rem;
   }
-  
+
   .skills__grid-item-text h4 {
     font-size: 0.9rem;
     font-weight: 700;
@@ -117,5 +117,609 @@
     color: #0000007e;
     line-height: 1.4;
   }
-  
-  /* Skills Ends */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1199.99px) and (max-width: 1499.98px) {
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    background-color: #f0f4fd;
+  }
+
+  .skills__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .skills__title {
+    background-color: #f2b749;
+    height: 30px;
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills__text h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5rem 1rem;
+  }
+
+  .skills__summary {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    align-self: start;
+    max-width: 500px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .skills__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .skills__grid-item {
+    background-color: #ffffff;
+    width: 325px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  }
+  .skills__grid-item-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills__grid-icon i {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-mail-bulk {
+    font-size: 2rem;
+    color: #2bd9a8;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-react {
+    font-size: 2rem;
+    color: #324bd9;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-drafting-compass {
+    font-size: 2rem;
+    color: #f2137b;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-layer-group {
+    font-size: 2rem;
+    color: #f2b749;
+    margin-right: 1rem;
+  }
+
+  .skills__grid-item-text h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-family: "Noto Sans", sans-serif;
+    color: #000000;
+  }
+  .skills__grid-item-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: #0000007e;
+    line-height: 1.4;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    background-color: #f0f4fd;
+  }
+
+  .skills__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .skills__title {
+    background-color: #f2b749;
+    height: 30px;
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills__text h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5rem 1rem;
+  }
+
+  .skills__summary {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    align-self: start;
+    max-width: 500px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .skills__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .skills__grid-item {
+    background-color: #ffffff;
+    width: 400px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  }
+  .skills__grid-item-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills__grid-icon i {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-mail-bulk {
+    font-size: 2rem;
+    color: #2bd9a8;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-react {
+    font-size: 2rem;
+    color: #324bd9;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-drafting-compass {
+    font-size: 2rem;
+    color: #f2137b;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-layer-group {
+    font-size: 2rem;
+    color: #f2b749;
+    margin-right: 1rem;
+  }
+
+  .skills__grid-item-text h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-family: "Noto Sans", sans-serif;
+    color: #000000;
+  }
+  .skills__grid-item-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: #0000007e;
+    line-height: 1.4;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    background-color: #f0f4fd;
+  }
+
+  .skills__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .skills__title {
+    background-color: #f2b749;
+    height: 30px;
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills__text h2 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5rem 1rem;
+  }
+
+  .skills__summary {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    align-self: start;
+    max-width: 500px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .skills__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    max-width: 700px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .skills__grid-item {
+    background-color: #ffffff;
+    width: 345px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  }
+  .skills__grid-item-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills__grid-icon i {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-mail-bulk {
+    font-size: 2rem;
+    color: #2bd9a8;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-react {
+    font-size: 2rem;
+    color: #324bd9;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-drafting-compass {
+    font-size: 2rem;
+    color: #f2137b;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-layer-group {
+    font-size: 2rem;
+    color: #f2b749;
+    margin-right: 1rem;
+  }
+
+  .skills__grid-item-text h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-family: "Noto Sans", sans-serif;
+    color: #000000;
+  }
+  .skills__grid-item-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: #0000007e;
+    line-height: 1.4;
+  }
+}
+
+/* Large Phone devices (portrait phones, less than 576px) */
+@media (min-width: 379.99px) and (max-width: 575.98px) {
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    background-color: #f0f4fd;
+  }
+
+  .skills__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .skills__title {
+    background-color: #f2b749;
+    height: 30px;
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills__text h2 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5rem 1rem;
+  }
+
+  .skills__summary {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    align-self: start;
+    max-width: 350px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .skills__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    max-width: 350px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .skills__grid-item {
+    background-color: #ffffff;
+    width: 350px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  }
+  .skills__grid-item-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills__grid-icon i {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-mail-bulk {
+    font-size: 2rem;
+    color: #2bd9a8;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-react {
+    font-size: 2rem;
+    color: #324bd9;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-drafting-compass {
+    font-size: 2rem;
+    color: #f2137b;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-layer-group {
+    font-size: 2rem;
+    color: #f2b749;
+    margin-right: 1rem;
+  }
+
+  .skills__grid-item-text h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-family: "Noto Sans", sans-serif;
+    color: #000000;
+  }
+  .skills__grid-item-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: #0000007e;
+    line-height: 1.4;
+  }
+}
+
+/* Small Phone devices (portrait phones, less than 379.98) */
+@media (max-width: 379.98px) {
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem 0;
+    background-color: #f0f4fd;
+  }
+
+  .skills__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .skills__title {
+    background-color: #f2b749;
+    height: 30px;
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills__text h2 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5rem 1rem;
+  }
+
+  .skills__summary {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    align-self: start;
+    max-width: 350px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .skills__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    max-width: 350px;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .skills__grid-item {
+    background-color: #ffffff;
+    width: 350px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
+  }
+  .skills__grid-item-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .skills__grid-icon i {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-mail-bulk {
+    font-size: 2rem;
+    color: #2bd9a8;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-react {
+    font-size: 2rem;
+    color: #324bd9;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-drafting-compass {
+    font-size: 2rem;
+    color: #f2137b;
+    margin-right: 1rem;
+  }
+  .skills__grid-icon .fa-layer-group {
+    font-size: 2rem;
+    color: #f2b749;
+    margin-right: 1rem;
+  }
+
+  .skills__grid-item-text h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-family: "Noto Sans", sans-serif;
+    color: #000000;
+  }
+  .skills__grid-item-text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: #0000007e;
+    line-height: 1.4;
+  }
+}

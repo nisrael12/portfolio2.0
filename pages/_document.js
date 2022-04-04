@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+
 export default function Document() {
   return (
     <Html>
@@ -18,7 +19,7 @@ export default function Document() {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet" />
-      <script src="https://kit.fontawesome.com/7574c101d8.js" crossOrigin="anonymous" />
+      <script async rel="preconnect" src="https://kit.fontawesome.com/7574c101d8.js" crossOrigin="anonymous" />
       </Head>
       <body>
         <Main />
