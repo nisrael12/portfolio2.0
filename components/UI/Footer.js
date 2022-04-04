@@ -6,27 +6,27 @@ const Footer = (props) => {
           <ul>
             <li>
               <a href="https://www.facebook.com/diedrich.r.p.m">
-                <i className="fab fa-facebook-f" />
+                <i aria-hidden className="fab fa-facebook-f" />
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/diedrich.r.p.m">
-                <i className="fab fa-twitter" />
+                <i aria-hidden className="fab fa-twitter" />
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/diedrich.r.p.m">
-                <i className="fab fa-instagram" />
+                <i aria-hidden className="fab fa-instagram" />
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/diedrich.r.p.m">
-                <i className="fab fa-dribbble" />
+                <i aria-hidden className="fab fa-dribbble" />
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/diedrich.r.p.m">
-                <i className="fab fa-linkedin" />
+                <i aria-hidden className="fab fa-linkedin" />
               </a>
             </li>
           </ul>

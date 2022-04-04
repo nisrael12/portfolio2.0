@@ -52,7 +52,7 @@ const About = (props) => {
             <div className="about__btn">
               <a href="#" download="NI Resume">
                 <button className="about__btn-text">
-                  <i className="fa fa-download" />
+                  <i aria-hidden className="fa fa-download" />
                   Download Resume
                 </button>
               </a>

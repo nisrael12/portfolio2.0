@@ -18,7 +18,7 @@ const Skills = (props) => {
               <div className="skills__grid-item">
                 <div className="skills__grid-item-wrapper">
                   <div className="skills__grid-icon">
-                    <i className="fas fa-mail-bulk" />
+                    <i aria-hidden className="fas fa-mail-bulk" />
                   </div>
                   <div className="skills__grid-item-text">
                     <h4>Email Campaign</h4>
@@ -34,7 +34,7 @@ const Skills = (props) => {
               <div className="skills__grid-item">
                 <div className="skills__grid-item-wrapper">
                   <div className="skills__grid-icon">
-                    <i className="fab fa-react" />
+                    <i aria-hidden className="fab fa-react" />
                   </div>
                   <div className="skills__grid-item-text">
                     <h4>React Development</h4>
@@ -50,7 +50,7 @@ const Skills = (props) => {
               <div className="skills__grid-item">
                 <div className="skills__grid-item-wrapper">
                   <div className="skills__grid-icon">
-                    <i className="fas fa-drafting-compass" />
+                    <i aria-hidden className="fas fa-drafting-compass" />
                   </div>
                   <div className="skills__grid-item-text">
                     <h4>UI Development</h4>
@@ -66,7 +66,7 @@ const Skills = (props) => {
               <div className="skills__grid-item">
                 <div className="skills__grid-item-wrapper">
                   <div className="skills__grid-icon">
-                    <i className="fas fa-layer-group" />
+                    <i aria-hidden className="fas fa-layer-group" />
                   </div>
                   <div className="skills__grid-item-text">
                     <h4>Microservice</h4>
@@ -82,7 +82,7 @@ const Skills = (props) => {
               <div className="skills__grid-item">
                 <div className="skills__grid-item-wrapper">
                   <div className="skills__grid-icon">
-                    <i className="fas fa-shopping-basket" />
+                    <i aria-hidden className="fas fa-shopping-basket" />
                   </div>
                   <div className="skills__grid-item-text">
                     <h4>E-Commerce Development</h4>

@@ -22,7 +22,7 @@ export default function Home() {
               id="project-modal__content-close"
             >
               <div />
-              {/* <i class="fas fa-times"></i> */}
+              {/* <i aria-hidden class="fas fa-times"></i> */}
             </div>
           </div>
           <div className="project-modal__container">
