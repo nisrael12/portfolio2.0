@@ -20,7 +20,7 @@ const About = (props) => {
                 <h2>Hello</h2>
               </div>
             </div>
-            <h4>I am Navi, UI/UX designer from Dallas, Texas USA.</h4>
+            <h4>I am Navi, UI Developer from Dallas, Texas USA.</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
               repellendus aut eaque ratione a, non vero vitae neque nam

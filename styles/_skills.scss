@@ -157,6 +157,7 @@
     color: rgb(0, 0, 0);
     font-family: "Noto Sans", sans-serif;
     padding: 0.5rem 1rem;
+    text-transform: uppercase;
   }
 
   .skills__summary {
@@ -278,6 +279,7 @@
     color: rgb(0, 0, 0);
     font-family: "Noto Sans", sans-serif;
     padding: 0.5rem 1rem;
+    text-transform: uppercase;
   }
 
   .skills__summary {
@@ -399,6 +401,7 @@
     color: rgb(0, 0, 0);
     font-family: "Noto Sans", sans-serif;
     padding: 0.5rem 1rem;
+    text-transform: uppercase;
   }
 
   .skills__summary {
@@ -489,7 +492,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
     padding: 2rem 0;
     background-color: #f0f4fd;
   }
@@ -500,7 +502,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 350px;
     width: 100%;
   }
 
@@ -511,7 +512,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.8rem;
+    margin: 0 1.5rem 0.8rem 1.5rem;
   }
 
   .skills__text h2 {
@@ -520,17 +521,17 @@
     color: rgb(0, 0, 0);
     font-family: "Noto Sans", sans-serif;
     padding: 0.5rem 1rem;
+    text-transform: uppercase;
   }
 
   .skills__summary {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 700;
     font-family: "Noto Sans", sans-serif;
     align-self: start;
-    max-width: 350px;
     width: 100%;
     line-height: 1.2;
-    margin-bottom: 2rem;
+    padding: 0 1.5rem;
   }
 
   .skills__gallery {
@@ -543,14 +544,14 @@
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     row-gap: 1rem;
-    max-width: 350px;
     width: 100%;
     margin: 1rem 0;
+    padding: 0 0.5rem;
   }
 
   .skills__grid-item {
     background-color: #ffffff;
-    width: 350px;
+    width: 100%;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.05);
   }
@@ -641,6 +642,7 @@
     color: rgb(0, 0, 0);
     font-family: "Noto Sans", sans-serif;
     padding: 0.5rem 1rem;
+    text-transform: uppercase;
   }
 
   .skills__summary {

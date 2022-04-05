@@ -5,7 +5,7 @@ const Hero = (props) => {
     <div className="hero">
       <div className="hero__text">
         <h2 className="hero__signature">Navi Israel</h2>
-        <h1 className="hero__position">Im a UI/UX developer.</h1>
+        <h1 className="hero__position">Im a UI developer.</h1>
         <div className="hero__other-positions">
           <div className="hero__line" />
           <div className="hero__titles">

@@ -147,49 +147,7 @@
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 2rem;
-    max-width: 700px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 2;
-  }
-
-  .header__logo {
-    font-size: 1.8rem;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: "Lato", sans-serif;
-  }
-
-  .header__nav ul {
-    display: flex;
-    align-items: center;
-  }
-
-  .header__nav ul li {
-    list-style: none;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    font-weight: 600;
-    font-family: "Lato", sans-serif;
-    cursor: pointer;
-    padding: 0 1rem;
-  }
-
-  .header__nav ul li a {
-    color: #f7f8fd;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .header__nav ul li a:hover {
-    color: rgba(255, 255, 255, 0.4);
-    text-decoration: none;
+    display: none;
   }
 }
 

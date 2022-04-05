@@ -6,7 +6,7 @@ const MobileNav = (props) => {
           <li id="mobile-nav__nav-about">
           <a>
             <div className="mobile-nav__icon-border">
-              <i className="fa-solid fa-face-grin-wide"></i>
+            <i className="fa-solid fa-user-tie"/>
             </div>
            About Me</a>
           </li>
@@ -27,7 +27,8 @@ const MobileNav = (props) => {
           <li id="mobile-nav__nav-jobs">
           <a>
             <div className="mobile-nav__icon-border">
-              <i className="fa-solid fa-user-tie"></i>
+            <i className="fa-solid fa-laptop-code" />
+              
             </div>
 
             Jobs</a>
