@@ -83,13 +83,16 @@
     color: #324bd9;
   }
 
+  .show {
+    display: block;
+    transition: all 0.5s ease-in-out;
+  }
   .portfolio__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     row-gap: 1rem;
-    max-width: 1200px;
-    width: 100%;
+    width: 1200px;
     margin: 1rem 0;
     height: 100%;
   }
@@ -99,10 +102,6 @@
     position: relative;
   }
 
-  .show {
-    display: block;
-    transition: all 0.5s ease-in-out;
-  }
 
   .portfolio__grid-item-img {
     transition: all 0.5s ease-in-out;
@@ -112,8 +111,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    height: 384px;
-    width: 384px;
   }
   .portfolio__grid-item-img:hover {
     transform: scale(1.05);
@@ -127,7 +124,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
 
   .portfolio__container {
@@ -172,7 +169,7 @@
   .portfolio__gallery {
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: 100%;
   }
 
   .portfolio__gallery-filter {
@@ -188,6 +185,9 @@
     font-family: "Noto Sans", sans-serif;
     color: #0000007e;
     transition: all 0.5s ease-in-out;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
   .portfolio__gallery-filter-item button:hover {
     color: #000000;
@@ -200,25 +200,38 @@
     color: #324bd9;
   }
 
+
   .portfolio__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     row-gap: 1rem;
-    max-width: 1000px;
-    width: 100%;
+    width: 1000px;
     margin: 1rem 0;
   }
-  .portfolio__grid img {
-    width: 325px;
-    height: 325px;
-    object-fit: cover;
+  .portfolio__grid-item {
+    // display: none;
     transition: all 0.5s ease-in-out;
-    cursor: pointer;
+    position: relative;
+    max-width: 384px;
+    width: 100%;
   }
   .portfolio__grid img:hover {
     transform: scale(1.05);
   }
+  .portfolio__grid-item-img {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .portfolio__grid-item-img:hover {
+    transform: scale(1.05);
+  }
+
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -270,12 +283,6 @@
     margin-bottom: 2rem;
   }
 
-  .portfolio__gallery {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-  }
-
   .portfolio__gallery-filter {
     display: flex;
   }
@@ -283,12 +290,15 @@
     padding-right: 2rem;
   }
   .portfolio__gallery-filter-item button {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-decoration: none;
     font-family: "Noto Sans", sans-serif;
     color: #0000007e;
     transition: all 0.5s ease-in-out;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
   .portfolio__gallery-filter-item button:hover {
     color: #000000;
@@ -306,18 +316,26 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     row-gap: 1rem;
-    max-width: 800px;
-    width: 100%;
+    width: 800px;
     margin: 1rem 0;
   }
-  .portfolio__grid img {
-    width: 255px;
-    height: 255px;
-    object-fit: cover;
+  .portfolio__grid-item {
+    // display: none;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+
+
+  .portfolio__grid-item-img {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  .portfolio__grid img:hover {
+  .portfolio__grid-item-img:hover {
     transform: scale(1.05);
   }
 }
@@ -381,7 +399,7 @@
     display: flex;
   }
   .portfolio__gallery-filter-item {
-    padding-right: 1.5rem;
+    padding-right: 2rem;
   }
   .portfolio__gallery-filter-item button {
     font-size: 0.8rem;
@@ -390,6 +408,9 @@
     font-family: "Noto Sans", sans-serif;
     color: #0000007e;
     transition: all 0.5s ease-in-out;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
   .portfolio__gallery-filter-item button:hover {
     color: #000000;
@@ -407,18 +428,26 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     row-gap: 1rem;
-    max-width: 700px;
-    width: 100%;
+    width: 700px;
     margin: 1rem 0;
   }
-  .portfolio__grid img {
-    width: 225px;
-    height: 225px;
-    object-fit: cover;
+  .portfolio__grid-item {
+    // display: none;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+  }
+
+
+  .portfolio__grid-item-img {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  .portfolio__grid img:hover {
+  .portfolio__grid-item-img:hover {
     transform: scale(1.05);
   }
 }

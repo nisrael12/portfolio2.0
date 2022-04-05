@@ -133,8 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
-    padding: 2rem 0;
+    margin: 2rem 0;
   }
 
   .jobs__container {
@@ -204,6 +203,7 @@
     padding: 1.5rem;
     height: 100%;
     width: 100%;
+    position: relative;
   }
 
   /* 
@@ -212,8 +212,9 @@
       } */
 
   .jobs__grid-logo {
+    position: relative;
+    width: 100px;
     height: 35px;
-    align-self: start;
   }
 
   .jobs__grid-logo img {
@@ -330,11 +331,13 @@
     padding: 1.5rem;
     height: 100%;
     width: 100%;
+    position: relative;
   }
 
   .jobs__grid-logo {
+    position: relative;
+    width: 100px;
     height: 35px;
-    align-self: start;
   }
 
   .jobs__grid-logo img {
@@ -451,11 +454,13 @@
     padding: 1.5rem;
     height: 100%;
     width: 100%;
+    position: relative;
   }
 
   .jobs__grid-logo {
+    position: relative;
+    width: 100px;
     height: 35px;
-    align-self: start;
   }
 
   .jobs__grid-logo img {
@@ -501,8 +506,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
-    padding: 2rem 0;
+    margin: 0;
+    padding: 0;
   }
 
   .jobs__container {
@@ -572,11 +577,13 @@
     padding: 1.5rem;
     height: 100%;
     width: 100%;
+    position: relative;
   }
 
   .jobs__grid-logo {
+    position: relative;
+    width: 100px;
     height: 35px;
-    align-self: start;
   }
 
   .jobs__grid-logo img {
